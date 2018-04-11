@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EggActivity"
+    android:background="#00008B">
+
+    <TextView
+        android:id="@+id/egg_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/egg_image"
+        android:text="你最帅帅帅帅帅帅帅帅帅你最帅帅帅帅帅帅帅帅帅你最帅帅帅帅帅帅帅帅帅帅帅"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="100sp"
+        android:textColor="#CD00CD"/>
+
+    <ImageView
+        android:id="@+id/egg_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/cdd"/>
+
+
+
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/egg_item"
+        android:title="CLICK ME IF YOU WANT"/>
+    <item
+        android:id="@+id/egg_info"
+        android:title="ABOUT THIS"
+        android:tooltipText="Find the Egg By Click the Button"/>
+</menu>
